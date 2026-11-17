@@ -51,7 +51,7 @@ explicaba los conceptos, y yo revisaba, preguntaba y ajustaba.
 - IA: Idea del formato de `validaciones.py` y explicación de `parametrize`, `ids` y `pytest.raises`.
 - Yo:
   - Escribí mi propia lista de contraseñas de prueba, ajusté el código en base a las sugerencias de la IA, incluido el caso con carácter especial
-    (`Sebas0812!`). Al revisarla, ajusté los valores límite para que quedaran justo en
+    (`0812KSEbas!`). Al revisarla, ajusté los valores límite para que quedaran justo en
     los bordes (7, 8, 20 y 21) y agregué los casos que faltaban (sin número, vacío y `None`).
   - Elegí organizar las pruebas por técnica (válidas, valores límite y negativas), para que
     el nombre de cada prueba indique qué verifica.

@@ -1,7 +1,7 @@
 # Reporte de bug: La cantidad del carrito vuelve a 1 al girar la pantalla del teléfono celular. 
 
 ## Título 
-Sobr el carrito de compras. La cantidad de un producto se reinicia a 1 al rotar la pantalla en Android 13 de la marca Samsung.
+Sobre el carrito de compras. La cantidad de un producto se reinicia a 1 al rotar la pantalla en Android 13 de la marca Samsung.
 
 ## Entorno
 | Campo | Valor |
@@ -12,7 +12,7 @@ Sobr el carrito de compras. La cantidad de un producto se reinicia a 1 al rotar 
 | Origen | Reporte de usuario |
 
 ## Precondiciones 
-- El usuario inció sesión en ShopGo. 
+- El usuario inició sesión en ShopGo. 
 - El usuario tiene activada la rotación automática de pantalla en su teléfono. 
 
 ## Pasos para reproducirlo
@@ -22,7 +22,7 @@ Sobr el carrito de compras. La cantidad de un producto se reinicia a 1 al rotar 
 4. Verificar que la cantidad de unidades se muestre correctamente. 
 5. Girar el teléfono horizontalmente. 
 
-## Resultafo esperado
+## Resultado esperado
 La cantidad se mantiene a 3 después de girarlo, y los datos de la orden de compra no cambian. 
 
 ## Resultado actual 
@@ -32,7 +32,7 @@ La cantidad vuelve a 1 después de rotar.
 La app no se cierra y el usuario puede corregir la cantidad. Pero se pueden perder datos sin aviso. 
 
 ## Prioridad: Alta 
-Afecta al flujo de la compra, el usuario podría pagar menos unidades de las que verdaderamete desea comprar. Impacta directamente a las ventas y totales. 
+Afecta al flujo de la compra, el usuario podría pagar menos unidades de las que verdaderamente desea comprar. Impacta directamente a las ventas y totales. 
 
 ## Evidencia que adjuntaría
 - Video de la pantalla que muestre la rotación del dispositivo, y como cambia la cantidad antes y después de hacerlo. 
@@ -40,7 +40,7 @@ Afecta al flujo de la compra, el usuario podría pagar menos unidades de las que
 - Logs del dispositivo durante la rotación. 
 
 ## Preguntas abiertas posibles
-- ¿Qué modelo de Samsung y que versión de la app se está usando? 
+- ¿Qué modelo de Samsung y qué versión de la app se está usando? 
 - ¿Sucede con todos los productos, o solo con ese en específico? 
-- ¿Pasa en otros dispositivos Android, o en otras versiones de SO movil? 
+- ¿Pasa en otros dispositivos Android, o en otras versiones de SO móvil? 
 - ¿Pasa siempre que se gira la pantalla o solo en ocasiones? 
