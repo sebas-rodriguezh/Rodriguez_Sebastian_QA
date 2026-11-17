@@ -4,7 +4,7 @@ Datos de prueba: usuario registrado sebas@shopgo.com / Sebas0812
 
 | ID | Título | Precondiciones | Pasos | Resultado esperado | Prioridad |
 |---|---|---|---|---|---|
-| TC-01 | Inicio de sesión con credenciales válidas | Usuario registrado, app instalada | 1. Abrir la app<br>2. Ingresar sebas@shopgo.com y Sebas0000<br>3. Tocar "Iniciar sesión" | Se abre la pantalla principal con el título "Bienvenido" | Alta |
+| TC-01 | Inicio de sesión con credenciales válidas | Usuario registrado, app instalada | 1. Abrir la app<br>2. Ingresar sebas@shopgo.com y Sebas0812<br>3. Tocar "Iniciar sesión" | Se abre la pantalla principal con el título "Bienvenido" | Alta |
 | TC-02 | Contraseña incorrecta | Usuario registrado, app instalada | 1. Abrir la app<br>2. Ingresar sebas@shopgo.com y Sebas0000<br>3. Tocar "Iniciar sesión" | Aparece "Correo o contraseña incorrectos" y no se inicia sesión | Alta |
 | TC-03 | Usuario no registrado | El correo noexiste@shopgo.com no está registrado | 1. Abrir la app<br>2. Ingresar noexiste@shopgo.com y Sebas0812<br>3. Tocar "Iniciar sesión" | Aparece "Correo o contraseña incorrectos" (Para no revelar si el correo existe) | Alta |
 | TC-04 | Correo con formato inválido | App instalada | 1. Abrir la app<br>2. Ingresar sebas.shopgo.com (sin @) y Sebas0812<br>3. Tocar "Iniciar sesión" | No se inicia sesión y se muestra un mensaje de error | Media |
