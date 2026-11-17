@@ -26,7 +26,7 @@ def test_password_valores_limite_de_longitud(password, esperado):
 
 @pytest.mark.parametrize(
     "password",
-    ["sebas0812","soloSebas", 3423, "Soy Sebas", " Sebas342", "", None],
+    ["sebas0812","soloSebas", 3423, "Soy Sebas1", " Sebas342", "", None],
     ids=["sin_mayuscula", "sin_numero", "no_string", "con_espacios", "espacio_inicio", "vacio", "none"],
     )
 def test_password_invalida_es_rechazada(password):

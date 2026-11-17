@@ -1,5 +1,5 @@
-def validar_password(password):
-    "True si la contraseña cumple con las reglas ShopGo."
+def validar_password(password: str) -> bool:
+    """True si la contraseña cumple con las reglas ShopGo."""
 
     if not isinstance(password, str):
         return False
@@ -20,7 +20,7 @@ def validar_password(password):
 
 
 def calcular_envio(subtotal: float) -> int:
-    "Devuelve el costo de envío en colones según el subtotal."
+    """Devuelve el costo de envío en colones según el subtotal."""
     if subtotal < 0:
         raise ValueError("El subtotal NO puede ser negativo")
     if subtotal >= 25000:
