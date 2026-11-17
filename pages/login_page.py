@@ -16,7 +16,7 @@ class LoginPage:
         self.driver = driver
         self.wait = WebDriverWait(self.driver, timeout)
 
-    def _esperarv_isible(self, locator):
+    def _esperar_visible(self, locator):
         return self.wait.until(EC.visibility_of_element_located(locator))
 
     def ingresar_correo(self, correo):
